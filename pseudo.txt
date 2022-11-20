@@ -1,3 +1,23 @@
 https://img.shields.io/github/license/jennnmarshall/weather-dashboard
 
 license shield url grabs which license a project uses by github username and project title
+
+Open source licenses:
+MIT 
+Apache License 2.0
+GNU General public license
+Mozilla public license 2.0
+Common Development and distribution license
+BSD 3-Clause 
+BSD 2-Clause
+
+questions:
+project title
+description
+installation
+usage
+license checkbox
+contributing
+Tests
+email
+github username
