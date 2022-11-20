@@ -1,6 +1,5 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-var license = "MIT";
 
 function renderLicenseBadge(license) {
   let badge = "";
@@ -75,7 +74,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}
+  # ${data.title} ${renderLicenseSection(data.license)}
 
 ## Description
 
@@ -103,10 +102,10 @@ ${data.usage}
 ****
 ## License
 
-${renderLicenseSection(data.license)}
+Please refer to the license <a href="${renderLicenseLink(data.license)}">here</a>
 
 ****
-## How To Contribute
+## Contributing
 
 ${data.contributing}
 

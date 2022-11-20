@@ -12,12 +12,14 @@ BSD 3-Clause
 BSD 2-Clause
 
 questions:
-project title
+github
+email
+title
 description
 installation
 usage
-license checkbox
+license
 contributing
 Tests
-email
-github username
+
+
